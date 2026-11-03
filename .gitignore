@@ -1,0 +1,32 @@
+# Python临时文件
+__pycache__/
+*.pyc
+.venv/
+
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+
+# 数据与模型
+*.npy
+*.npz
+*.tif
+*.tiff
+*.wim
+*.pt
+*.pth
+*.safetensors
+data/
+models/
+
+# 运行结果与日志
+outputs/
+*.log
+
+# 旧代码备份
+*.before*
+*.backup*
